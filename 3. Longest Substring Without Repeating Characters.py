@@ -32,8 +32,3 @@ class Solution:
             # 下面这句不在循环中，那就是原字符串中每个字符都会被添加到查重集合中，不过一旦有重复，先出现的就被删除了
             lookup.add(s[i])
         return max_len
-
-作者：qing-shan-si-ma
-链接：https://leetcode.cn/problems/longest-substring-without-repeating-characters/solution/zhu-shi-by-qing-shan-si-ma-phsq/
-来源：力扣（LeetCode）
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
